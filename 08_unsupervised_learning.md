@@ -379,7 +379,7 @@ Determining the number of clusters using a dendrogram is a common approach in Hi
         - $\mu$ = Mean of the distribution, representing the most likely value.
     - The plot of a 1D Gaussian is looks like,
 
-        ![unsupervised_learning_1.png](attachment:unsupervised_learning_1.png)
+        ![alt text](artifacts/unsupervised_learning_1.png)
 
 - 2D Gaussian
     - Now consider the following age and salary data,
@@ -393,11 +393,11 @@ Determining the number of clusters using a dendrogram is a common approach in Hi
     
     - The 3D plot of a 2D Gaussian looks like,
 
-        ![unsupervised_learning_2.png](attachment:unsupervised_learning_2.png)
+        ![alt text](artifacts/unsupervised_learning_2.png)
     
     - The 2D plot of a 2D Gaussian looks like,
 
-        ![unsupervised_learning_3.png](attachment:unsupervised_learning_3.png)
+        ![alt text](artifacts/unsupervised_learning_3.png)
     
     - A 2D Gaussian as seen above resembles an inverted cone-chaped curve. The highest density of points are concentrated in the centre, and the density decreases as the distance from the centre increases. However, unlike a perfect cone, the shape can vary depending on the parameters.
 - Mean vector and covariance matrix:
