@@ -403,7 +403,10 @@ Determining the number of clusters using a dendrogram is a common approach in Hi
 - Mean vector and covariance matrix:
     - In 1D, a Gaussian is define by its mean ($\mu$) and standard deviation ($\sigma$). In 2D, these concepts are elevated to,
         - Mean vector ($\mu$): This becomes a 2D vector representing the average values for both features (e.g. average age and average salary). The mean vector is defined as, 
-            - $\begin{pmatrix}\mu_{age}\\\mu_{salary}\end{pmatrix}$.
+            - $\begin{pmatrix}
+            \mu_{age}\\
+            \mu_{salary}
+            \end{pmatrix}$.
         - Covariance matrix ($\Sigma$): This replaces the single standard deviation. It captures the variances of each features ($\sigma_{xx}$ for age and $\sigma_{yy}$ for salary) and the covariance ($\sigma_{xy}$) between them. The covariance matrix is defined as, 
             - $\begin{pmatrix}\sigma_{xx} & \sigma_{xy} \\\sigma_{yx} & \sigma_{yy}\end{pmatrix}$.
 - Covariance:
