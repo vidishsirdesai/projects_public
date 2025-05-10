@@ -169,7 +169,7 @@ def classify():
     scaler = StandardScaler()
     training_data = pd.read_csv("../data/data_cleaned.csv", header = 0)
     training_data.drop(columns = ["Unnamed: 0", "loan_status"], inplace = True)
-    training_data_scaled = scaler.fit_transform(training_data)
+    training_data = scaler.fit_transform(training_data)
 
     model_inputs = pd.DataFrame([[loan_amnt, term, int_rate, annual_inc, dti, open_acc, pub_rec, revol_bal, revol_util, total_acc, initial_list_status, mort_acc, pub_rec_bankrupticies, grade_B, grade_C, grade_D, grade_E, grade_F, grade_G, home_ownership_MORTGAGE, home_ownership_NONE, home_ownership_OTHER, home_ownership_OWN, home_ownership_RENT, verification_status_Source_Verified, verification_status_Verified, purpose_credit_card, purpose_debt_consolidation, purpose_educational, purpose_home_improvement, purpose_house, purpose_major_purchase, purpose_medical, purpose_moving, purpose_other, purpose_renewable_energy, purpose_small_business, purpose_vacation, purpose_wedding, application_type_INDIVIDUAL, application_type_JOINT, zip_code_05113, zip_code_11650, zip_code_22690, zip_code_29597, zip_code_30723, zip_code_48052, zip_code_70466, zip_code_86630, zip_code_93700]])
 
