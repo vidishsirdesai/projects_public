@@ -33,11 +33,12 @@ def predict():
     else:
         research = 0
 
+    training_data = pd.read_csv("../data/data_cleaned.csv", header = 0)
+    training_data.drop(columns = ["Unnamed: 0", "chance_of_admit"], inplace = True)
+    
     # scaling the train data
     scaler = StandardScaler()
-    training_data = pd.read_csv("../datasets/x_train.csv", header = 0)
-    training_data.drop(columns = ["Unnamed: 0"], inplace = True)
-    training_data_scaled = scaler.fit_transform(training_data)
+    training_data = scaler.fit_transform(training_data)
 
     model_inputs = [[gre_score, toefl_score, university_rating, sop, lor, cgpa, research]]
 
