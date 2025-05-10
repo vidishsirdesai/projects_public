@@ -3,8 +3,9 @@ A loan underwriter is a financial professional who evaluates loan applications t
 
 To automate the task of a loan underwriter, a Logistic Regression model is trained using a dataset containing 27 relevant feature. The for a new data point, the model outputs if a credit line should be approved or not approved to an applicant.
 
-# Jupyter Notebook
-[EDA and model building](notebooks/eda_and_model_building.ipynb)
+# Jupyter Notebooks
+1. [Data cleaning, and EDA](src/data_preprocessing.ipynb)
+2. [Model building](src/model_building.ipynb)
 
 # Insights
 ### Distribution plots
