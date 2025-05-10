@@ -127,7 +127,7 @@ The following plots show the comparison of Linear Regression model with Ridge an
 It is observed that both Linear Regression and Ridge Regression have a similar accuracy, while the Lasso Regression has oversimplified the model.
 
 ### University admission predictor app
-1. This app has been built and has been tested on Python version: `3.11.9`.
+1. This app has been built and has been tested on Python version: `3.9.6`.
 2. To run the application,
     - `cd src`.
     - `FLASK_APP=university_admission_predictor_app.py flask run`.
