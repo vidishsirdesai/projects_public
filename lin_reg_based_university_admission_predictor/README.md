@@ -4,7 +4,8 @@ Each year millions of students apply for admissions into universities across the
 To automate this task of calculating the chance of admission, a Linear Regression model is trained using a dataset containing 9 relevant features. The model then, for a new data point, predicts the chance of admission of a student into a university.
 
 # Jupyter Notebook
-[EDA and model building](notebooks/eda_and_model_building.ipynb)
+1. [Data cleaning, and EDA](src/data_preprocessing.ipynb)
+2. [Model building](src/model_building.ipynb)
 
 # Insights
 The distribution plots of all the numerical columns is as follows,
